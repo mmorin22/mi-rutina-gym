@@ -31,8 +31,6 @@ jobs:
             21
           cache: 'gradle'
 
-      - name: Configurar Android SDK
-        uses: android-actions/setup-android@v3
 
       - name: Instalar dependencias, compilar Web y sincronizar Capacitor
         run: |
