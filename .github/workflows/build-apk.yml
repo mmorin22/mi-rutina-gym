@@ -33,6 +33,8 @@ jobs:
 
       - name: Configurar Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
 
       - name: Instalar dependencias, compilar Web y sincronizar Capacitor
         run: |
